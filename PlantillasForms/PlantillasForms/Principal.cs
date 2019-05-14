@@ -24,7 +24,8 @@ namespace PlantillasForms
 
         private void TestCampos()
         {
-            labelNotificaciones.Text = "TESTEANDO FORMULARIO HEREDADO";
+            labelNotificaciones.Text = "TESTEANDO notificaciones";
+            labelAvisos.Text= "TESTEANDO avisos";
         }
     }
 }

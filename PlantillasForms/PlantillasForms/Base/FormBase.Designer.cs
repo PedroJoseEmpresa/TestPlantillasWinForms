@@ -31,7 +31,9 @@
             this.panelNotificacionesSuperior = new System.Windows.Forms.Panel();
             this.panelAvisosInfoerior = new System.Windows.Forms.Panel();
             this.labelNotificaciones = new System.Windows.Forms.Label();
+            this.labelAvisos = new System.Windows.Forms.Label();
             this.panelNotificacionesSuperior.SuspendLayout();
+            this.panelAvisosInfoerior.SuspendLayout();
             this.SuspendLayout();
             // 
             // panelNotificacionesSuperior
@@ -47,6 +49,7 @@
             // panelAvisosInfoerior
             // 
             this.panelAvisosInfoerior.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.panelAvisosInfoerior.Controls.Add(this.labelAvisos);
             this.panelAvisosInfoerior.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.panelAvisosInfoerior.Location = new System.Drawing.Point(0, 411);
             this.panelAvisosInfoerior.Name = "panelAvisosInfoerior";
@@ -65,6 +68,17 @@
             this.labelNotificaciones.Text = "label1";
             this.labelNotificaciones.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
+            // labelAvisos
+            // 
+            this.labelAvisos.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.labelAvisos.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelAvisos.Location = new System.Drawing.Point(0, 0);
+            this.labelAvisos.Name = "labelAvisos";
+            this.labelAvisos.Size = new System.Drawing.Size(684, 50);
+            this.labelAvisos.TabIndex = 1;
+            this.labelAvisos.Text = "SIN AVISOS";
+            this.labelAvisos.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // FormBase
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -76,6 +90,7 @@
             this.Text = "Base";
             this.Load += new System.EventHandler(this.FormBase_Load);
             this.panelNotificacionesSuperior.ResumeLayout(false);
+            this.panelAvisosInfoerior.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -85,6 +100,7 @@
         protected System.Windows.Forms.Label labelNotificaciones;
         protected System.Windows.Forms.Panel panelNotificacionesSuperior;
         protected System.Windows.Forms.Panel panelAvisosInfoerior;
+        protected System.Windows.Forms.Label labelAvisos;
     }
 }
 
