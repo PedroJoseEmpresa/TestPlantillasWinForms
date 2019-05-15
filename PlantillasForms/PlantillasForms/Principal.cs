@@ -27,5 +27,15 @@ namespace PlantillasForms
             labelNotificaciones.Text = "TESTEANDO notificaciones";
             labelAvisos.Text= "TESTEANDO avisos";
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            labelAvisos.Text = "ADIOS";
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            labelAvisos.Text = "HOLA 2";
+        }
     }
 }
