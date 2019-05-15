@@ -1,17 +1,13 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace PlantillasForms
+namespace Base
 {
     public partial class FormBase : Form
     {
+
+        private const string TITULO = "PLANTILLA BÁSICA";
+
         public FormBase()
         {
             InitializeComponent();
@@ -27,9 +23,9 @@ namespace PlantillasForms
 
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        protected void btInfoBase_Click(object sender, EventArgs e)
         {
-            labelAvisos.Text = "Hola";
+            labelNotificaciones.Text = TITULO + ": Boton base ";
         }
     }
 

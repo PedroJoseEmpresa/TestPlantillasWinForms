@@ -1,4 +1,4 @@
-﻿namespace PlantillasForms
+﻿namespace Base
 {
     partial class FormBase
     {
@@ -32,7 +32,7 @@
             this.labelNotificaciones = new System.Windows.Forms.Label();
             this.panelAvisosInfoerior = new System.Windows.Forms.Panel();
             this.labelAvisos = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btInfoBase = new System.Windows.Forms.Button();
             this.panelNotificacionesSuperior.SuspendLayout();
             this.panelAvisosInfoerior.SuspendLayout();
             this.SuspendLayout();
@@ -56,7 +56,7 @@
             this.labelNotificaciones.Name = "labelNotificaciones";
             this.labelNotificaciones.Size = new System.Drawing.Size(684, 50);
             this.labelNotificaciones.TabIndex = 0;
-            this.labelNotificaciones.Text = "label1";
+            this.labelNotificaciones.Text = "STAND BY";
             this.labelNotificaciones.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // panelAvisosInfoerior
@@ -80,22 +80,22 @@
             this.labelAvisos.Text = "SIN AVISOS";
             this.labelAvisos.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // button1
+            // btInfoBase
             // 
-            this.button1.Location = new System.Drawing.Point(12, 71);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 2;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.btInfoBase.Location = new System.Drawing.Point(12, 56);
+            this.btInfoBase.Name = "btInfoBase";
+            this.btInfoBase.Size = new System.Drawing.Size(75, 23);
+            this.btInfoBase.TabIndex = 2;
+            this.btInfoBase.Text = "BotonBase";
+            this.btInfoBase.UseVisualStyleBackColor = true;
+            this.btInfoBase.Click += new System.EventHandler(this.btInfoBase_Click);
             // 
             // FormBase
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(684, 461);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btInfoBase);
             this.Controls.Add(this.panelAvisosInfoerior);
             this.Controls.Add(this.panelNotificacionesSuperior);
             this.Name = "FormBase";
@@ -114,7 +114,7 @@
         protected System.Windows.Forms.Panel panelNotificacionesSuperior;
         protected System.Windows.Forms.Panel panelAvisosInfoerior;
         protected System.Windows.Forms.Label labelAvisos;
-        protected System.Windows.Forms.Button button1;
+        protected System.Windows.Forms.Button btInfoBase;
     }
 }
 

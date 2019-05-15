@@ -1,10 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Base
+
+namespace Principal
 {
     static class Program
     {
@@ -16,7 +14,8 @@ namespace Base
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FormBase());
+
+            Application.Run(new Principal());
         }
     }
 }
